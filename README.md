@@ -4,8 +4,8 @@
 
 ### Generation
  
-`xgettext -j -s -d base -o locales/ru/LC_MESSAGES/base.po bottles.py`
+`xgettext -j -s -d bottles -o locales/ru/LC_MESSAGES/bottles.po bottles.py`
 
 ### Compilation
 
-`msgfmt -o locales/ru/LC_MESSAGES/base.mo locales/ru/LC_MESSAGES/base`
+`msgfmt -o locales/ru/LC_MESSAGES/bottles.mo locales/ru/LC_MESSAGES/bottles`

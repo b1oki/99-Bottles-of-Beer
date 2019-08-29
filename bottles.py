@@ -1,6 +1,10 @@
 #!python3
 # coding: utf-8
-from gettext import gettext as _
+import gettext
+
+es = gettext.translation('bottles', localedir='locales')
+es.install()
+_ = es.gettext
 
 
 def get_bottle_word_ru(beerNum):
