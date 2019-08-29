@@ -2,23 +2,32 @@
 # coding: utf-8
 import gettext
 
-es = gettext.translation('bottles', localedir='locales')
-es.install()
-_ = es.gettext
+
+def init_gettext():
+    es = gettext.translation('bottles', localedir='locales')
+    es.install()
+    _ = es.gettext
+    return _
 
 
-def get_bottle_word_ru(beerNum):
-    if beerNum % 10 == 1 and beerNum != 11:
+def get_bottle_word_ru(beer_num):
+    if beer_num % 10 == 1 and beer_num != 11:
         word = _('бутылка')
-    elif 0 < beerNum < 5:
+    elif 0 < beer_num < 5:
         word = _('бутылки')
     else:
         word = _('бутылок')
     return word
 
 
-for bottles in range(99, 0, -1):
-    print(bottles, get_bottle_word_ru(bottles), _('пива на стене'))
-    print(bottles, get_bottle_word_ru(bottles), _('пива!'))
-    print(_('Возьми одну, пусти по кругу'))
-print(_('Нет бутылок пива на стене'))
+def print_song():
+    for bottles in range(99, 0, -1):
+        print(bottles, get_bottle_word_ru(bottles), _('пива на стене'))
+        print(bottles, get_bottle_word_ru(bottles), _('пива!'))
+        print(_('Возьми одну, пусти по кругу'))
+    print(_('Нет бутылок пива на стене'))
+
+
+if __name__ == '__main__':
+    _ = init_gettext()
+    print_song()
