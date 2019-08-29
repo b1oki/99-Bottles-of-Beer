@@ -1,37 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-08-29 03:01+0500\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-29 20:42+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: pygettext.py 1.5\n"
 
-
-#: bottles.py:6
-msgid "бутылка"
-msgstr "бутылка"
-
-#: bottles.py:8
-msgid "бутылки"
-msgstr "бутылки"
-
-#: bottles.py:10
-msgid "бутылок"
-msgstr "бутылок"
-
-#: bottles.py:15
-msgid "пива на стене"
-msgstr "пива на стене"
-
-#: bottles.py:16
-msgid "пива!"
-msgstr "пива!"
-
-#: bottles.py:17
+#: bottles.py:19
 msgid "Возьми одну, пусти по кругу"
 msgstr "Возьми одну, пусти по кругу"
 
-#: bottles.py:18
+#: bottles.py:20
 msgid "Нет бутылок пива на стене"
 msgstr "Нет бутылок пива на стене"
+
+#: bottles.py:8
+msgid "бутылка"
+msgstr "бутылка"
+
+#: bottles.py:10
+msgid "бутылки"
+msgstr "бутылки"
+
+#: bottles.py:12
+msgid "бутылок"
+msgstr "бутылок"
+
+#: bottles.py:17
+msgid "пива на стене"
+msgstr "пива на стене"
+
+#: bottles.py:18
+msgid "пива!"
+msgstr "пива!"

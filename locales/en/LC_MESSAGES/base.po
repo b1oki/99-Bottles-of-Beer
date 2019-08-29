@@ -1,0 +1,37 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2019-08-29 03:01+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: bottles.py:6
+msgid "бутылка"
+msgstr "bottle"
+
+#: bottles.py:8
+msgid "бутылки"
+msgstr "bottles"
+
+#: bottles.py:10
+msgid "бутылок"
+msgstr "bottles"
+
+#: bottles.py:15
+msgid "пива на стене"
+msgstr "of beer on the wall"
+
+#: bottles.py:16
+msgid "пива!"
+msgstr "of beer!"
+
+#: bottles.py:17
+msgid "Возьми одну, пусти по кругу"
+msgstr "Take one down, pass it around"
+
+#: bottles.py:18
+msgid "Нет бутылок пива на стене"
+msgstr "No more bottles of beer on the wall"
