@@ -3,14 +3,14 @@
 import gettext
 
 
-def init_gettext():
+def init_gettext() -> classmethod:
     es = gettext.translation('bottles', localedir='bottles/locales')
     es.install()
     _ = es.gettext
     return _
 
 
-def get_bottle_word_ru(beer_num):
+def get_bottle_word_ru(beer_num: int) -> str:
     if beer_num % 10 == 1 and beer_num != 11:
         word = _('бутылка')
     elif 0 < beer_num < 5:
