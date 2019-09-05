@@ -4,7 +4,7 @@ import gettext
 
 
 def init_gettext():
-    es = gettext.translation('bottles', localedir='locales')
+    es = gettext.translation('bottles', localedir='bottles/locales')
     es.install()
     _ = es.gettext
     return _
