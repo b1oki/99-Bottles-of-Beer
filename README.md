@@ -1,4 +1,7 @@
 # 99 Bottles of Beer
+
+[![GitHub release](https://img.shields.io/github/release/b1oki/99-Bottles-of-Beer?maxAge=2592000&style=for-the-badge)](https://github.com/b1oki/99-Bottles-of-Beer)
+[![GitHub license](https://img.shields.io/github/license/b1oki/99-Bottles-of-Beer?style=for-the-badge)](https://github.com/b1oki/99-Bottles-of-Beer)
  
 ## Translation
 
